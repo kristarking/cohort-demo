@@ -1,6 +1,6 @@
 name: hagital-ci
 
-on: 
+on:
   push:
     branches: [ main ]
 
@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Say hello
-        run: echo "Hello from hagital! Live Troubleshooting Script"
-             echo "Aye mi o"
-             echo "Wetin be this"
-
+        run: |
+          echo "Hello from hagital! Live Troubleshooting Script"
+          echo "Aye mi o"
+          echo "Wetin be this"
