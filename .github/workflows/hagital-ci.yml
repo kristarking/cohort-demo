@@ -10,4 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Say hello
-        run: echo "Hello from hagital!"
+        run: echo "Hello from hagital! Live Troubleshooting Script"
+             echo "Aye mi o"
+             echo "Wetin be this"
+
