@@ -14,3 +14,4 @@ jobs:
           echo "Hello from hagital! Live Troubleshooting Script"
           echo "Aye mi o"
           echo "Wetin be this"
+          echo "Oya pipeline don trigger!"
