@@ -1,0 +1,13 @@
+name: hagital-ci
+
+on: 
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Say hello
+        run: echo "Hello from hagital!"
